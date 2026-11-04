@@ -18,20 +18,20 @@ const PROTOTYPE_URL = 'https://calmears-demo.netlify.app'
 
 const STEPS = [
   {
-    n: '01',
-    title: 'It listens for shape, not volume',
-    body: 'Misophonia triggers have a signature: sharp attack, short tail, repeating. That is what the outward-facing mics are being trained to watch for — a crunch is not just loud, it is loud in a particular way.',
-  },
-  {
-    n: '02',
-    title: 'It trims the peak, not the room',
-    body: 'When a trigger lands, its peak gets pulled under a comfortable ceiling in a few milliseconds. The speech, the music and the rest of the room carry on at the level they were.',
-  },
-  {
-    n: '03',
-    title: 'You decide what counts',
-    body: 'Your trigger list is not anyone else’s. Cutlery, keyboards, gum, breathing — you choose what gets trimmed, and how hard, from the phone in your pocket.',
-  },
+  n: '01',
+  title: 'It knows a trigger when it hears one',
+  body: 'Chewing, clicking and tapping sound different from everything else around you. CalmEars is built to pick those sounds out as they happen.',
+},
+{
+  n: '02',
+  title: 'It quiets the trigger and leaves the rest',
+  body: 'When a trigger sound happens, it gets turned down right away. Voices, music and everything else around you stay the same.',
+},
+{
+  n: '03',
+  title: 'You choose what gets quieted',
+  body: 'Everyone\u2019s triggers are different. Pick the sounds that bother you and how much each one is turned down, you set.',
+},
 ]
 
 const STAGES = [
