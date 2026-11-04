@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="robots" content="noindex" />
+    <title>Form definitions</title>
+  </head>
+  <body>
+    <!-- Static skeleton so Netlify Forms registers the waitlist form at deploy time. -->
+    <form name="waitlist" data-netlify="true" netlify-honeypot="bot-field" hidden>
+      <input type="hidden" name="form-name" value="waitlist" />
+      <input name="bot-field" />
+      <input type="email" name="email" />
+    </form>
+  </body>
+</html>
